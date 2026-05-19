@@ -22,6 +22,7 @@ class _ListPageState extends State<ListPage> {
     Pertemuan(title: 'Pertemuan 6', subtitle: 'Checkbox'),
     Pertemuan(title: 'Pertemuan 7', subtitle: 'Radio Button'),
     Pertemuan(title: 'Pertemuan 8', subtitle: 'AutoComplete & Spinner'),
+    Pertemuan(title: 'Pertemuan 9', subtitle: 'Date & Time Picker'),
   ];
 
   @override

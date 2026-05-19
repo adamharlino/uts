@@ -7,6 +7,7 @@ import 'package:uts/pertemuan/pertemuan5.dart';
 import 'package:uts/pertemuan/pertemuan6.dart';
 import 'package:uts/pertemuan/pertemuan7.dart';
 import 'package:uts/pertemuan/pertemuan8.dart';
+import 'package:uts/pertemuan/pertemuan9.dart';
 
 class DashboardPage extends StatelessWidget {
   const DashboardPage({super.key});
@@ -59,6 +60,12 @@ class DashboardPage extends StatelessWidget {
       "icon": Icons.radio_button_checked,
       "color": const Color.fromARGB(255, 0, 74, 158),
       "page": AutocompletespinPage(),
+    },
+    {
+      "title": "Pertemuan 9",
+      "icon": Icons.calendar_month_outlined,
+      "color": const Color.fromARGB(255, 0, 74, 158),
+      "page": DateTimePickerForm(),
     },
   ];
 
